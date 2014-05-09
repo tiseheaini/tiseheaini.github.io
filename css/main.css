@@ -19,14 +19,11 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
+a         { color: #d00; }
+a:hover   { color: #333; }
 a:visited { color: #a0a; }
 
 /*****************************************************************************/
@@ -41,6 +38,7 @@ a:visited { color: #a0a; }
 
 .posts li {
   line-height: 1.75em;
+  padding: 0.1em 0;
 }
 
 .posts span {
@@ -66,6 +64,11 @@ a:visited { color: #a0a; }
 .header a {
   font-weight: bold;
   text-decoration: none;
+}
+
+.blog-title {
+  font-size: 1.4em;
+  display: inline-block;
 }
 
 .title {
