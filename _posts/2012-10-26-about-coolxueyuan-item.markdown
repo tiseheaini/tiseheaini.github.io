@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "关于coolxueyuan小项目该注意的地方"
 date: 2012-10-26 13:23:00
 ---

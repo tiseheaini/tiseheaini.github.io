@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "最近有点浮躁"
 date:   2013-03-22 01:44:00
 ---

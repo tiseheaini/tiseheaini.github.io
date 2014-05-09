@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "《比较Ruby on Rails 和 CakePHP》有感"
 date: 2012-11-09 01:42:00
 ---

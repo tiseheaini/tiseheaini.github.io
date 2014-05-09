@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "让微博可以在本地调试之rails篇"
 ---
 在rails 上折腾微博登录，会遇到一个小问题，那就是如何在本地调试，首先在用户输入完用户名和密码后会跳转到设置好的一个 callback 地址，例如 www.gongzuozheng.com/user/auth/callback 
@@ -13,10 +13,13 @@ title:  "让微博可以在本地调试之rails篇"
 
 打开 **/etc/hosts** 文件添加一行代码
 
+    {% highlight nginx %}
     127.0.0.1  www.gongzuozheng.com
+    {% endhighlight %}
 
 然后打开 nginx 配置文件 /etc/nginx/site-enabled/default 添加代码
 
+    {% highlight nginx %}
     upstream www.gongzuozheng.com {
     server 127.0.0.1:3000;
     }
@@ -33,6 +36,7 @@ title:  "让微博可以在本地调试之rails篇"
         proxy_pass http://www.gongzuozheng.com;
       }
     }
+    {% endhighlight %}
 
 这些写好后，重启 nginx 。
 直接访问 www.gongzuozheng.com 就可以进行微博登录的测试了。

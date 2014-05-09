@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "我们在道路上需要的品质"
 date:   2013-03-17 22:25:00
 ---

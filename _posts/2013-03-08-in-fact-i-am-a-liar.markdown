@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "其实，我是一个骗子"
 date:   2013/03/08 23:07:00
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "实习生面试失败"
 date:   2012/11/23 10:08:00
 ---

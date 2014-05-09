@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "最近一段时间"
 date:   2013-04-28 23:26:00
 ---

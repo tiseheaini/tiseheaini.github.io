@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "can't convert Symbol into String 解决方法"
 date:   2013-11-03 17:05:00
 ---

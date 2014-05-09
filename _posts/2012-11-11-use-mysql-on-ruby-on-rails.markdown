@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "在 rails 中使用 MySQL"
 date:   2012-11-11 01:07:00
 ---

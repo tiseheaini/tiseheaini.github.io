@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "开发小记"
 date:   2013/03/12 22:00:00
 ---

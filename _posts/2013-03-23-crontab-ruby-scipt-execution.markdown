@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "crontab 执行 ruby 脚本"
 date:   2013-03-23 01:35:00
 ---
@@ -14,9 +14,10 @@ date:   2013-03-23 01:35:00
 
 凭着印象去使用 crontab，开始的时候总是不能够执行命令。开始时怀疑是自己用错了。
 
-    *  *  * * * sudo  echo 'hello world!' >> /home/deploy//text.txt
-
-    taill -f /home/deploy/text.txt
+{% highlight bash %}
+*  *  * * * sudo  echo 'hello world!' >> /home/deploy//text.txt
+taill -f /home/deploy/text.txt  
+{% endhighlight %}
 
 用这两条命令去调试，发现没错。
 
@@ -38,9 +39,11 @@ date:   2013-03-23 01:35:00
 
 这是脚本文件的样式
 
-    #!/usr/bin/
-    /home/deploy/.rvm/rubies/ruby-1.9.3-p385/bin/ruby 
-    /home/deploy/weibo.rb
+{% highlight bash %}
+#!/usr/bin/
+/home/deploy/.rvm/rubies/ruby-1.9.3-p385/bin/ruby 
+/home/deploy/weibo.rb
+{% endhighlight %}
 
 脚本文件中不要忘了写上 #!/usr/bin/ 这行来加载环境变量
 

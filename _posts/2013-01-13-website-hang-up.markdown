@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "网站挂掉"
 date:   2013-01-13 21:21:00
 ---
