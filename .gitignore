@@ -3,3 +3,7 @@ _site
 ## ignore vim swp file
 *.swp
 *.swo
+
+## ignore .DS_Store
+.DS_Store
+*/.DS_Store
