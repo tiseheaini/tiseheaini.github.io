@@ -1,5 +1,7 @@
 _site
 
+## ignore Rakefile
+Rakefile
 ## ignore vim swp file
 *.swp
 *.swo
