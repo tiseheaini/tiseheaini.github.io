@@ -1,3 +1,17 @@
-name: "写给未来的自己"
-markdown: redcarpet
+name: This is Tiseheaini!
+description: Happy Hacking
+baseurl: /
+meta_description: "写给未来的自己"
+
 highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: [fenced_code_blocks]
+
+paginate: 10
+
+permalink: /:year/:month/:day/:title
+encoding: utf-8
+# Details for the RSS feed generator
+url:            'tise.c2qu.com'
+author:         'tiseheaini'
