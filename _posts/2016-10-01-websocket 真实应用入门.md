@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "websocket 真实应用入门"
-tags: ['nodejs', 'websocket', 'redis', 'socket.io', '频率限制']
+tags: ['nodejs', 'websocket', 'redis', 'socket.io']
+cover: /images/2016/10/websocket-bootstrap.png
 ---
 
 websocket 入门在网上已经有很多教程了，今天我们用一下实例来学习一下 。
