@@ -1,6 +1,5 @@
-source 'https://ruby.taobao.org'
+source 'https://gems.ruby-china.com'
 
 gem "jekyll"
 gem "redcarpet"
-gem "rake"
-gem "chinese_pinyin"
+gem "jekyll-paginate"
