@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Jekyll Theme Style
  * - author: liaokeyu (liaokeyu.com)
@@ -114,6 +115,8 @@ a {
     color: #1494FB !important; }
   .g-header .nav-pink a:hover {
     color: #FC6794 !important; }
+  .g-header .nav-code a:hover {
+    color: #212121 !important; }
 
 .headerUp {
   top: -65px; }
@@ -122,7 +125,7 @@ a {
   top: 0; }
 
 .g-banner {
-  height: 460px;
+  height: 400px;
   background-color: #2F3139;
   color: #fff;
   padding: 0 60px; }
@@ -162,11 +165,19 @@ a {
   background: -moz-linear-gradient(0deg, #FFCE69, #FA709A);
   background: linear-gradient(100deg, #FFCE69, #FA709A); }
 
+.banner-theme-code {
+  background-image: url("/assets/img/blog-top-banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 420px; }
+
 .themeColor-default {
   background-color: #1494FB; }
 
 .themeColor-pink {
   background-color: #FC6794; }
+
+.themeColor-code {
+  background-color: #212121; }
 
 .home-content {
   margin: 40px auto 60px; }
@@ -566,6 +577,9 @@ a {
 .bgcolor-pink {
   background-color: #FC6794; }
 
+.bgcolor-code {
+  background-color: #212121; }
+
 .post-no-cover {
   height: 360px; }
   .post-no-cover .post-tags {
@@ -626,7 +640,7 @@ a {
   padding: 0 0 32px; }
   .markdown-body .highlight {
     margin: 0 0 16px;
-    overflow: scroll; }
+    /** overflow: scroll;  修复代码高亮 显示两个 scroll的问题 **/ }
   .markdown-body img {
     transition: .3s; }
   .markdown-body ul li p, .markdown-body ol li p {
