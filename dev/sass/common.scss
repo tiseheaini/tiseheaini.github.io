@@ -84,6 +84,11 @@
             color: $color-theme-pink !important;
         }
     }
+    .nav-code {
+        a:hover {
+            color: $color-theme-code !important;
+        }
+    }
 }
 // header scroll
 .headerUp{
@@ -139,12 +144,20 @@
     background: -moz-linear-gradient(0deg, #FFCE69, #FA709A);
     background: linear-gradient(100deg, #FFCE69, #FA709A);
 }
+.banner-theme-code {
+  background-image: url("/assets/img/blog-top-banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 420px;
+}
 
 .themeColor-default {
     background-color: $color-theme-default;
 }
 .themeColor-pink {
     background-color: $color-theme-pink;
+}
+.themeColor-code {
+    background-color: $color-theme-code;
 }
 
 .home-content {
@@ -468,6 +481,9 @@
 }
 .bgcolor-pink {
     background-color: $color-theme-pink;
+}
+.bgcolor-code {
+    background-color: $color-theme-code;
 }
 
 .post-no-cover {
